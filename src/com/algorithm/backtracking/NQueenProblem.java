@@ -1,4 +1,4 @@
-package com.tomining.backtracking;
+package com.algorithm.backtracking;
 
 /**
  * Question: N-Queen problem
@@ -7,5 +7,5 @@ package com.tomining.backtracking;
  *
  * @author tomining
  */
-public class NQueenSolution {
+public class NQueenProblem {
 }
