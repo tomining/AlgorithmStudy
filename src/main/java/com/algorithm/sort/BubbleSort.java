@@ -8,13 +8,9 @@ import java.util.Arrays;
  *
  * @author tomining
  */
-public class BubbleSort {
-    public int[] sort(int[] nums) {
-        if (nums == null || nums.length == 0) {
-            return null;
-        }
-
-        System.out.print(Arrays.toString(nums));
+public class BubbleSort extends AbstractSort {
+    @Override
+    protected int[] sorting(int[] nums) {
         int size = nums.length;
         int temp = 0;
         for (int i = 0; i < size-1; i++) {
@@ -27,7 +23,6 @@ public class BubbleSort {
             }
         }
 
-        System.out.println(" ==> " + Arrays.toString(nums));
         return nums;
     }
 }

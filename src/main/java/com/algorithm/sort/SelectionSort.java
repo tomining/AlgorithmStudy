@@ -1,17 +1,16 @@
 package com.algorithm.sort;
 
+import java.util.Arrays;
+
 /**
  * Question: SelectionSort(선택정렬)
  * O(n^2)
  *
  * @author tomining
  */
-public class SelectionSort {
-    public int[] sort(int[] nums) {
-        if (nums == null || nums.length == 0) {
-            return null;
-        }
-
+public class SelectionSort extends AbstractSort {
+    @Override
+    protected int[] sorting(int[] nums) {
         int minIdx = 0;
         int temp = 0;
         int size = nums.length;

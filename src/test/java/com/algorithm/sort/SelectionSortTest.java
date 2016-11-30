@@ -31,7 +31,7 @@ public class SelectionSortTest {
         this.numbers = numbers;
     }
 
-    private SelectionSort sortEngine = new SelectionSort();
+    private Sort sortEngine = new SelectionSort();
 
     @Test
     public void test() throws Exception {
