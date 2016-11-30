@@ -4,6 +4,7 @@ import java.util.Arrays;
 
 /**
  * Question: BubbleSort(거품정렬)
+ * O(n^2)
  *
  * @author tomining
  */
