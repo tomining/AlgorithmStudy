@@ -26,9 +26,7 @@ public class SelectionSort extends AbstractSort {
             }
 
             if (minIdx != i) {
-                temp = nums[minIdx];
-                nums[minIdx] = nums[i];
-                nums[i] = temp;
+                swap(nums, minIdx, i);
             }
         }
 

@@ -19,9 +19,7 @@ public class InsertionSort extends AbstractSort {
             value = nums[i];
 
             while (j > 0 && nums[j-1] > value) {
-                temp = nums[j];
-                nums[j] = nums[j-1];
-                nums[j-1] = temp;
+                swap(nums, j - 1, j);
                 j -= 1;
             }
         }
