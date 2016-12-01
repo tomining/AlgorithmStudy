@@ -4,5 +4,9 @@
 
 * 정렬
     1. BubbleSort(com.algorithm.sort.BubbleSort)
+    2. InsertionSort(com.algorithm.sort.InsertSort)
+    3. SelectionSort(com.algorithm.sort.SelectionSort)
+    4. MergeSort(com.algorithm.sort.MergeSort)
+    5. QuickSort(com.algorithm.sort.QuickSort)
 * 문제
     1. N-Queen problem(com.algorithm.backtracking.NQueenProblem)
