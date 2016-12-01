@@ -14,5 +14,10 @@
             <artifactId>junit</artifactId>
             <version>LATEST</version>
         </dependency>
+        <dependency>
+            <groupId>commons-lang</groupId>
+            <artifactId>commons-lang</artifactId>
+            <version>LATEST</version>
+        </dependency>
     </dependencies>
 </project>
