@@ -19,4 +19,4 @@
         * CompressWord
 * CodingDojang 문제(com.algorithm.coding.dojang)
     1. NCounter(구글 입사문제)
-    https://github.com/tomining/AlgorithmStudy/blob/master/src/test/java/com/algorithm/coding/dojang/NCounterTest.java
+    http://codingdojang.com/scode/393?answer_mode=hide
