@@ -38,4 +38,9 @@ public class AnagramTest {
     public void 아나그램_테스트() {
         assertEquals(result, anagram.isAnagram(str1, str2));
     }
+
+    @Test
+    public void 아나그램_테스트2() {
+        assertEquals(result, anagram.isAnagram2(str1, str2));
+    }
 }

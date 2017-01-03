@@ -20,4 +20,16 @@ public class Anagram {
         Arrays.sort(chars);
         return new String(chars);
     }
+
+    public boolean isAnagram2(String str1, String str2) {
+        for (char ch : str1.toCharArray()) {
+            if (StringUtils.isEmpty(str2)) {
+                return false;
+            }
+
+            str2 = str2.replace(ch, ' ');
+        }
+
+        return StringUtils.isBlank(str2);
+    }
 }
