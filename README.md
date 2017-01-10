@@ -10,6 +10,7 @@
     5. QuickSort
 * 문제
     1. N-Queen problem(com.algorithm.backtracking.NQueenProblem)
+    2. Levenshtein Distance(com.algorithm.distance.LevenshteinDistance)
 * CodingInterview 문제
     1. Chapter 01(com.algorithm.coding.interview.problem.chapter01)
         * IsUniqueChars
