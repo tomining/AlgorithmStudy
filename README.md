@@ -21,3 +21,5 @@
 * CodingDojang 문제(com.algorithm.coding.dojang)
     1. NCounter(구글 입사문제)
     http://codingdojang.com/scode/393?answer_mode=hide
+    2. SelfNumber(넥슨 입사문제)
+    http://codingdojang.com/scode/365?answer_mode=hide
