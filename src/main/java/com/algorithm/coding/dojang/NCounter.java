@@ -62,6 +62,41 @@ public class NCounter {
         return posNum * (int)Math.pow(10, posNum - 1);
     }
 
+    /**
+     * 1 ~ to까지 findingNum의 갯수를 카운팅, to 변수 제약 없음
+     * 참고: https://github.com/KimMinJoo/AlgorithmStudy/tree/master/src/google
+     * @param to 마지막 숫자
+     * @return findingNum 갯수
+     */
+    public int countNV2(int to) {
+        if (getFindingNum() > to) {
+            return 0;
+        }
+
+        int posNum = 1;
+        int unit = 10;
+
+        int count = 0;
+        while (true) {
+            count += (to / unit) * posNum;
+
+            if ((to % unit) / posNum == getFindingNum()) {
+                count += to % posNum + 1;
+            } else if ((to % unit) / posNum > getFindingNum())  {
+                count += posNum;
+            }
+
+            if (to / unit == 0) {
+                break;
+            }
+
+            unit *= 10;
+            posNum *= 10;
+        }
+
+        return count;
+    }
+
     public int getFindingNum() {
         return findingNum;
     }

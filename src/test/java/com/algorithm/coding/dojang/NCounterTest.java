@@ -19,6 +19,7 @@ public class NCounterTest {
         return Arrays.asList(new Object[][]{
                 {1, 10, 8, 1},
                 {1, 100, 8, 20},
+                {1, 587, 8, 116},   //countN(to)에서는 실패 케이스
                 {1, 1000, 8, 300},
                 {1, 10000, 8, 4000}
         });
@@ -46,5 +47,11 @@ public class NCounterTest {
     public void 숫자_세기_10의_배수인_경우() {
         NCounter counter = new NCounter(this.findNum);
         assertEquals(this.expectedCount, counter.countN(to));
+    }
+
+    @Test
+    public void 숫자_세기_V2() {
+        NCounter counter = new NCounter(this.findNum);
+        assertEquals(this.expectedCount, counter.countNV2(this.to));
     }
 }
