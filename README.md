@@ -23,3 +23,5 @@
     http://codingdojang.com/scode/393?answer_mode=hide
     2. SelfNumber(넥슨 입사문제)
     http://codingdojang.com/scode/365?answer_mode=hide
+    3. EmployeeCounter(아마존 입사문제)
+    http://codingdojang.com/scode/418?answer_mode=hide
