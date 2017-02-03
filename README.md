@@ -18,6 +18,8 @@
         * Anagram
         * EncodeSpace
         * CompressWord
+    2. Chapter 02(com.algorithm.coding.interview.problem.chapter02)
+        * CustomLinkedList
 * CodingDojang 문제(com.algorithm.coding.dojang)
     1. NCounter(구글 입사문제)
     http://codingdojang.com/scode/393?answer_mode=hide
